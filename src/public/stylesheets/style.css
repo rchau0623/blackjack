@@ -1,0 +1,146 @@
+body {
+	display: inline-block;
+	background-image: url("../img/bg.jpg");
+	text-align: center;
+}
+
+.playBtn {
+	display: inline-block;
+	font-size: 18px;
+	margin: 5px;
+	padding: 10px;
+	padding-left: 20px;
+	padding-right: 20px;	
+	background: #fff;
+	border-radius: 5px;
+	border: 1px solid #bbb;
+}
+
+.start {
+	font-size: 18px;
+	position:absolute;
+	-webkit-transform: translate(-50%,-50%);
+	   -moz-transform: translate(-50%,-50%);
+		 -o-transform: translate(-50%,-50%);
+			transform: translate(-50%,-50%);
+	padding-top: 10px; 
+	top:50%;
+	left: 50%;
+	display: inline-block;
+	width: 400px;
+	height: 60px;
+	background: #fff;
+	border-radius: 5px;
+	border: 1px solid #bbb;
+	box-shadow: 4px 4px 10px;   
+}
+
+.game {
+	position:absolute;
+	-webkit-transform: translate(-50%,-50%);
+	   -moz-transform: translate(-50%,-50%);
+		 -o-transform: translate(-50%,-50%);
+			transform: translate(-50%,-50%);
+	top: 45%;
+	left: 50%;
+	display: inline-block;
+}
+
+.cpuTotal {
+	font-size: 18px;
+	margin: 20px;
+	padding: 10px;
+	position: relative;
+	display: inline-block;
+	background: #fff;
+	border-radius: 5px;
+	border: 1px solid #bbb;
+	box-shadow: 4px 4px 10px; 
+}
+
+.playerTotal {
+	font-size: 18px;
+	margin: 20px;
+	padding: 10px;
+	position: relative;
+	display: inline-block;
+	background: #fff;
+	border-radius: 5px;
+	border: 1px solid #bbb;
+	box-shadow: 4px 4px 10px; 
+}
+
+.card {
+	vertical-align: top;
+	margin: 4px;
+	display: inline-block;
+	width: 125px;
+	height: 175px;
+	background: #fff;
+	border-radius: 5px;
+	border: 1px solid #bbb;
+	box-shadow: 4px 4px 10px;   
+}
+
+.top{ 
+	text-align: left; 
+	padding-top: 10px;
+	padding-left: 10px;
+}
+
+.suit {
+	font-size: 40px;
+	padding-top: 20px;
+	text-align: center;
+	padding-bottom: 20px;
+}
+
+.bottom{ 
+	text-align: right; 
+	padding-bottom: 10px;
+	padding-right: 10px;
+}
+
+.hiddenCard {
+	background-image: url("../img/hidden.jpg");
+	vertical-align: top;
+	margin: 4px;
+	display: inline-block;
+	width: 125px;
+	height: 175px;
+	border-radius: 5px;
+	border: 1px solid #bbb;
+	box-shadow: 4px 4px 10px;   
+}
+
+.buttons {
+	display: inline-block;
+	margin: 15px;
+}
+
+.hit, .stand, .reset {
+	display: inline-block;
+	font-size: 18px;
+	margin: 5px;
+	padding: 10px;
+	padding-left: 20px;
+	padding-right: 20px;	
+	background: #fff;
+	border-radius: 5px;
+	border: 1px solid #bbb;
+	box-shadow: 4px 4px 10px;   
+}
+
+.message {
+	display: inline-block;
+	font-size: 18px;
+	margin-top: 20px;
+	padding: 10px;
+	position: relative;
+	background: #fff;
+	border-radius: 5px;
+	border: 1px solid #bbb;
+	box-shadow: 4px 4px 10px; 
+}
+
+
